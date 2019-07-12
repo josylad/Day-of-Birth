@@ -1,7 +1,7 @@
 function day (cc,yy,mm,dd){
 return ((((cc/4)-2*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)-1
 }
-// function dayofbirth(form){
+function dayofbirth(form){
 // var cc = document.forms["myform"]["century"].value;
 // var yy = document.forms["myform"]["year"].value;
 // var mm = document.forms["myform"]["month"].value;
