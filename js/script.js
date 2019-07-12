@@ -8,9 +8,9 @@ var mm = document.forms["myform"]["month"].value;
 var dd = document.forms["myform"]["date"].value;
 var gender= document.forms["myform"]["gender"].value;
 var result=day(cc,yy,mm,dd).toFixed();
-//    alert(result);
-//    var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
-//    var females=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
+   alert(result);
+   var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
+   var females=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
 //    if (gender=="male" && result== 0){
 //    alert(males[0]);
 //    }
