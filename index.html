@@ -18,30 +18,30 @@
       <form action="#" method="POST">
         <div class="form-group">
           <p>
-            <label>Century (two digits)</label>
-            <input type="number" value="century" class="form-control">
+            <label><strong>Century </strong>(two digits)</label>
+            <input type="number" id="century" max ="21" class="form-control">
           </p>
           <p>
-            <label>Year (two digits)</label>
-        <input type="number" value="year" class="form-control">
+            <label><strong>Year </strong>(two digits)</label>
+        <input type="number" id="year" min="0" max="99" class="form-control">
           </p>
           <p>
-            <label>Month (two digits)</label>
-            <input type="number" value="month" class="form-control">
+            <label><strong>Month </strong>(two digits)</label>
+            <input type="number" id="month" max= "12" class="form-control">
           </p>
           <p>
-            <label>Date of Birth (two digits)</label>
-            <input type="number" value="date of birth" class="form-control">
+            <label><strong>Date of Birth </strong> (two digits)</label>
+            <input type="number" id="date of birth" max= "31" class="form-control">
           </p>
           <p>
-            <label class="form-check-label">Gender: </label>
+            <label class="form-check-label"><strong>Gender:</strong> </label>
             <label>
               <input type="radio" name="gender" class="form-check-inline">male</label>
             <label>
           <input type="radio" name="gender" class="form-check-inline">female</label>
           </p>
           <p>
-            <button type="submit" class="btn btn-primary">submit</button>
+            <button type="submit" class="btn-lg btn-primary">submit</button>
           </p>
         </div>
     </form>
