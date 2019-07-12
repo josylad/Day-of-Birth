@@ -2,12 +2,12 @@ function day (cc,yy,mm,dd){
 return ((((cc/4)-2*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)-1
 }
 function dayofbirth(form){
-// var cc = document.forms["myform"]["century"].value;
-// var yy = document.forms["myform"]["year"].value;
-// var mm = document.forms["myform"]["month"].value;
-// var dd = document.forms["myform"]["date"].value;
-// var gender= document.forms["myform"]["gender"].value;
-// var result=day(cc,yy,mm,dd).toFixed();
+var cc = document.forms["myform"]["century"].value;
+var yy = document.forms["myform"]["year"].value;
+var mm = document.forms["myform"]["month"].value;
+var dd = document.forms["myform"]["date"].value;
+var gender= document.forms["myform"]["gender"].value;
+var result=day(cc,yy,mm,dd).toFixed();
 //    alert(result);
 //    var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
 //    var females=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
