@@ -32,28 +32,28 @@ var result=day(cc,yy,mm,dd).toFixed();
    else if(gender == "male" && result==6){
    alert(males[6]);
    }
-//    else if(gender == "female" && result==0){
-//    alert(females[0]);
-//    }
-//    else if(gender == "female" && result==1){
-//    alert(females[1]);
-//    }
-//    else if(gender == "female" && result==2){
-//    alert(females[2]);
-//    }
-//    else if(gender == "female" && result==3){
-//    alert(females[3]);
-//    }
-//    else if(gender == "female" && result==4){
-//    alert(females[4]);
-//    }
-//    else if(gender == "female" && result==5){
-//    alert(females[5]);
-//    }
-//    else if (gender == "female" && result==6){
-//    alert(females[6]);
-//    }
-//    else{
-//    alert("null");
-//    }
-//  }
+   else if(gender == "female" && result==0){
+   alert(females[0]);
+   }
+   else if(gender == "female" && result==1){
+   alert(females[1]);
+   }
+   else if(gender == "female" && result==2){
+   alert(females[2]);
+   }
+   else if(gender == "female" && result==3){
+   alert(females[3]);
+   }
+   else if(gender == "female" && result==4){
+   alert(females[4]);
+   }
+   else if(gender == "female" && result==5){
+   alert(females[5]);
+   }
+   else if (gender == "female" && result==6){
+   alert(females[6]);
+   }
+   else{
+   alert("null");
+   }
+ }
