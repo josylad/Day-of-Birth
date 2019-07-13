@@ -3,10 +3,30 @@ return ((((cc/4)-2*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)
 }
 function dayofbirth(form){
 var cc = document.forms["myform"]["century"].value;
+if (cc == "") {
+    alert("Century must be filled out");
+    return false;
+  }
 var yy = document.forms["myform"]["year"].value;
+if (yy == "") {
+    alert("Year must be filled out");
+    return false;
+  }
 var mm = document.forms["myform"]["month"].value;
+if (mm == "") {
+    alert("Month must be filled out");
+    return false;
+  }
 var dd = document.forms["myform"]["date"].value;
+if (dd == "") {
+    alert("Date must be filled out");
+    return false;
+  }
 var gender= document.forms["myform"]["gender"].value;
+if (gender == "") {
+    alert("Gender must be  selected");
+    return false;
+  }
 var result=day(cc,yy,mm,dd).toFixed();
    // alert(result);
    var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
