@@ -74,6 +74,6 @@ var result=day(cc,yy,mm,dd).toFixed();
    alert("Your Akan Name is " + females[6]);
    }
    else{
-   alert("null");
+   alert("Fill required fields correctly");
    }
  }
