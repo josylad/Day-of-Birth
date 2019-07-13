@@ -1,6 +1,7 @@
 h1 {
   color: blue;
   text-transform: uppercase;
+  font-family: verdana, sans-serif;
 }
 .footer{
   background-color: black;
