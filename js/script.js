@@ -75,5 +75,6 @@ var result=day(cc,yy,mm,dd).toFixed();
    }
    else{
    alert("Fill required fields correctly");
-   }
+   }    
+   alert("thanks for using our service");
  }
